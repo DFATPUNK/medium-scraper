@@ -24,6 +24,7 @@ Copyright 2018, Jérémy Brunet, All rights reserved.
 var casper = require('casper').create();
 var fs = require('fs');
 
+// Name of the Medium Profile
 var medium = "Jeremy-Brunet";
 
 // URL: https://medium.com/_/api/users/[USER_ID]/followers
@@ -31,6 +32,7 @@ var urlFirst = "https://medium.com/_/api/users/7cad54db04f8/followers";
 
 // URL: https://medium.com/_/api/users/[USER_ID]/profile/stream?limit=8&to=
 var urlStart = "https://medium.com/_/api/users/7cad54db04f8/profile/stream?limit=8&to=";
+
 var urlEnd = "&source=followers";
 
 var userLimit;
