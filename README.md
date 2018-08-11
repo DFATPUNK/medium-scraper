@@ -3,11 +3,13 @@ Simple script written in CasperJS to scrap followers on Medium.
 
 ## Presentation
 Script made to scrap all the followers' informations from a Medium account.
+
 You can pick any user account on Medium, the script will browse the followers list and collect all the public informations of each follower.
 
-This script doesn't work with publications.
+**This script doesn't work with publications.**
 
 ## Output
+```
 {
   "userId": "7cad54db04f8",
   "name": "Jérémy Brunet",
@@ -24,6 +26,7 @@ This script doesn't work with publications.
   "isPartnerProgramEnrolled": true,
   "type": "User"
 }
+```
 
 ## Walkthrough
 #### How to get the userId of a Medium Profile?
@@ -44,7 +47,9 @@ This script doesn't work with publications.
 
 ## Performance
 36 followers scraped in 9.916 seconds
+
 1739 followers scraped in 6 minutes and 15 seconds
+
 37643 followers scraped in 2 hours and 45 minutes
 
 ## License
