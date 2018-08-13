@@ -29,7 +29,6 @@ You can pick any user account on Medium, the script will browse the followers li
 ```
 
 ## Walkthrough
-#### How to get the userId of a Medium Profile?
 
 1. Go to the Medium profile page of the user you would like to scrap.
 
