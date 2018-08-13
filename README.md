@@ -32,18 +32,22 @@ You can pick any user account on Medium, the script will browse the followers li
 #### How to get the userId of a Medium Profile?
 
 1. Go to the Medium profile page of the user you would like to scrap.
+
 ![My Medium Profile](https://dl.dropboxusercontent.com/s/5z11606707a6y2p/Capture%20d%E2%80%99%C3%A9cran%202018-08-11%20%C3%A0%2014.40.23.png)
 
 2. Open the developer console (Chrome is recommended) and search for `window.__APOLLO_STATE__ = {"User:`
+
 ![Spot the userId in the console](https://dl.dropboxusercontent.com/s/xyetbdew9zdd9d8/Capture%20d%E2%80%99%C3%A9cran%202018-08-11%20%C3%A0%2014.50.55.png)
 
-3. Save the value of `"User:"` and modify lines 31 & 34 of medium.js (Don't forget to modify line 28 too!)
+3. Save the value of `"User"` (or value of `{"id"}` right after, they are similar) and modify lines 31 & 34 in medium.js (Don't forget to modify line 28 too!)
+
 ![Insert userId in links](https://dl.dropboxusercontent.com/s/1da5y2k2ijzwxue/Capture%20d%E2%80%99%C3%A9cran%202018-08-11%20%C3%A0%2014.57.46.png)
 
-4. Open your terminal and run `$ casperjs medium.js``
+4. Open your terminal and run `$ casperjs medium.js`
+
 ![Run medium.js in Terminal](https://dl.dropboxusercontent.com/s/j5bj9yoi2utqq2n/Capture%20d%E2%80%99%C3%A9cran%202018-08-11%20%C3%A0%2015.07.05.png)
 
-5. Once the scraping done, a JSON file (named after the variable line 28) will appear in the same folder of medium.js
+5. Once the scraping done, a JSON file (named after the variable line 28) will appear in the folder where medium.js is.
 
 ## Performance
 36 followers scraped in 9.916 seconds
