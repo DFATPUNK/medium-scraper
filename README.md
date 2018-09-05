@@ -55,5 +55,13 @@ You can pick any user account on Medium, the script will browse the followers li
 
 37643 followers scraped in 2 hours and 45 minutes
 
+
+## BONUS TIP: Convert JSON to CSV
+
+1. Install [json2csv](https://www.npmjs.com/package/json2csv).
+
+2. Open your terminal and run 
+`$ json2csv -i file.json -f userId,name,username,createdAt,lastPostCreatedAt,imageId,backgroundImageId,bio,twitterScreenName,facebookAccountId,allowNotes,mediumMemberAt,isPartnerProgramEnrolled,type -> file.csv`
+
 ## License
 [MIT License](https://github.com/DFATPUNK/medium-scraper/blob/master/LICENSE)
