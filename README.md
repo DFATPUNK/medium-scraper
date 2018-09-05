@@ -56,7 +56,7 @@ You can pick any user account on Medium, the script will browse the followers li
 37643 followers scraped in 2 hours and 45 minutes
 
 
-## BONUS TIP: Convert JSON to CSV
+## 💡Bonus Tip: Convert JSON to CSV
 
 1. Install [json2csv](https://www.npmjs.com/package/json2csv).
 
