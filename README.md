@@ -1,5 +1,5 @@
 # Medium Scraper
-Simple script written in CasperJS to scrap followers on Medium.
+Simple CasperJS script to scrap followers on Medium.
 
 ## Presentation
 Script made to scrap all the followers' informations from a Medium account.
