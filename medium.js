@@ -82,7 +82,7 @@ function Scraper() {
         }
 
         // Write users in the JSON File
-        fs.write(medium + '.json', JSON.stringify(users), 'w');
+        fs.write(medium + '.json', JSON.stringify(users, undefined, 2), 'w');
 
         // Check next user limit
         userLimit = json.payload.paging.next.to;
