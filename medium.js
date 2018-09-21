@@ -88,7 +88,7 @@ function Scraper() {
             }
 
         });
-    });
+    };
     casper.then(Scraper);
 }
 
